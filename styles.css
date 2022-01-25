@@ -40,7 +40,8 @@ img{
 
 
 .nav-wrapper a:hover{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    transform: scale(1.2);
     color:white;
     transition: all 0.3s ease;
 }
