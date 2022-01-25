@@ -1,0 +1,124 @@
+body{
+    font-family: "lato", sans-serif;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 300px;
+}
+
+/*.content-wrapper{
+    width: 50px;
+}*/
+
+/* Nav Bar */
+.nav-wrapper{
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    font-size: 1em;
+    text-transform:uppercase;
+    height: 22px;
+    margin: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-wrapper a{
+    color: white;
+    text-decoration: none;
+    /*transition: color 0.5s;*/
+    transition: all 0.3s ease;
+}
+
+
+.nav-wrapper a:hover{
+    text-decoration: underline;
+    color:white;
+    transition: all 0.3s ease;
+}
+
+/* Profile */
+.about img{
+    width: 600px;
+}
+
+/* Education*/
+.two-column-wrapper{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.left-side{
+    padding: 10px;
+}
+
+.right-side{
+    padding: 30px;
+}
+.Education h2{
+    padding-left: 50px;
+}
+
+.Work__Experience h2{
+    padding-left: 50px;
+}
+
+.Projects h2{
+    padding-left: 50px;
+}
+
+.Extracurriculars h2{
+    padding-left: 50px;
+}
+
+.Documents h2{
+    padding-left: 50px;
+}
+
+
+/* Work Experience */
+
+/* Projects */
+
+/* Extracurriculars */
+
+/* Documents */
+a {
+    color: white;
+}
+/* Contact */
+a {
+    color: white;
+}
+
+.Contact h2{
+    padding-left: 50px;
+}
+
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* About page */
+.profile-img-wrapper img{
+    width: 80%;
+    padding: 20px;
+}
+
+.profile-content-wrapper{
+    padding: 20px;
+}
+
+
